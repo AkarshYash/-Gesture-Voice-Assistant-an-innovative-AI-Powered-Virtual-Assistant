@@ -1,15 +1,15 @@
 
-# 🤖 Gesture & Voice Assistant
+ 🤖 Gesture & Voice Assistant
 
-Welcome to the **Gesture & Voice Assistant**, an innovative AI-powered virtual assistant that blends **computer vision**, **gesture recognition**, **eye detection**, **voice responses**, and a **graphical interface** to create a seamless and futuristic user experience.
+Welcome to the Gesture & Voice Assistant, an innovative AI-powered virtual assistant that blends computer vision, gesture recognition, eye detection, voice responses, and a graphical interface to create a seamless and futuristic user experience.
 
-## 🔥 Key Features
+ 🔥 Key Features
 
-### 🎯 Dual Interface
-- Combines **Tkinter GUI** with **OpenCV-powered real-time webcam feed**.
+🎯 Dual Interface
+- Combines Tkinter GUI with OpenCV-powered real-time webcam feed.
 - A clean GUI window for easy navigation and a live feed window for gesture input.
 
-### 🧠 Hand Gesture Control
+🧠 Hand Gesture Control
 - Utilizes **MediaPipe's hand tracking** to detect and interpret finger gestures.
 - Recognizes multiple finger patterns to perform different actions:
   - ☝️ Index Finger Up → Opens YouTube
@@ -18,102 +18,26 @@ Welcome to the **Gesture & Voice Assistant**, an innovative AI-powered virtual a
   - 🖖 Four Fingers Up → Opens Microsoft Edge
   - ✋ All Fingers Up → Opens Notepad
 
-### 👁️ Eye Detection & Alert
-- Uses **Haar cascades** to detect user presence through eye tracking.
+👁️ Eye Detection & Alert
+- Uses Haar cascades to detect user presence through eye tracking.
 - If eyes remain closed for more than 5 seconds, the assistant alerts the user via **text-to-speech (TTS)**.
 
-### 🔈 Voice Feedback
+🔈 Voice Feedback
 - Integrates **pyttsx3** TTS engine to respond to user commands and confirmations.
 - Greets users and provides real-time voice responses for each action.
 
-### 🌐 Smart Application Launcher
+🌐 Smart Application Launcher
 - Launches websites or applications based on gesture detection using system shell or default browser.
 - Automatically terminates the previous app before launching the next for smooth transitions.
 
-### 🛑 Safety Prompt
+🛑 Safety Prompt
 - Includes a secure **exit confirmation prompt** to prevent accidental shutdowns.
 
----
-
-## 📁 Project Structure
-```bash
-├── gesture_voice_assistant.py  # Main script
-├── README.md                   # Project description
-```
-
-## ✅ Requirements
+✅ Requirements
 - Python 3.x
 - OpenCV (`cv2`)
 - MediaPipe
 - pyttsx3
 - tkinter (comes pre-installed with Python)
 - Haar Cascade XML files (included with OpenCV)
-
-## 🚀 How to Run
-```bash
-python gesture_voice_assistant.py
-# 🤖 Gesture & Voice Assistant
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-Enabled-success)](https://opencv.org/)
-[![Mediapipe](https://img.shields.io/badge/Mediapipe-Integrated-orange)](https://google.github.io/mediapipe/)
-[![TTS](https://img.shields.io/badge/pyttsx3-TTS%20Engine-lightgrey)](https://pypi.org/project/pyttsx3/)
-[![Tkinter GUI](https://img.shields.io/badge/Tkinter-GUI-green)](https://docs.python.org/3/library/tkinter.html)
-
-> 🚀 A powerful virtual assistant that responds to your **gestures**, **eye movement**, and **voice feedback**—bringing AI and human interaction together!
-
----
-
-## 📸 Demo Preview
-
-![Gesture & Voice Assistant Demo](demo.gif)  
-> _Replace `demo.gif` with your actual preview image or screen recording._
-
----
-
-## 🔥 Key Features
-
-### 🎯 Dual Interface
-- Combines **Tkinter GUI** with a **live webcam feed** via OpenCV.
-
-### ✋ Hand Gesture Recognition (via MediaPipe)
-- ☝️ 1 Finger → YouTube  
-- ✌️ 2 Fingers → Hotstar  
-- 🤟 3 Fingers → Camera  
-- 🖖 4 Fingers → Microsoft Edge  
-- ✋ 5 Fingers → Notepad  
-
-### 👀 Eye Detection Alerts (via Haar Cascades)
-- Warns you if your eyes are closed for more than 5 seconds.
-
-### 🔈 Voice Interaction (via pyttsx3)
-- Friendly greetings and real-time voice feedback on actions.
-
-### ⚙️ Smart Application Launcher
-- Terminates the previous app before opening a new one.
-- Supports both websites and native apps.
-
-### 🛑 Exit Confirmation
-- Clean GUI exit with confirmation via `messagebox`.
-
----
-
-## 🧰 Tech Stack
-
-- **Python 3.8+**
-- **OpenCV**
-- **MediaPipe**
-- **pyttsx3**
-- **Tkinter**
-- **WebBrowser Module**
-- **Haar Cascades for Face/Eye Detection**
-
----
-
-## 🛠️ How to Run
-
-```bash
-git clone https://github.com/yourusername/gesture-voice-assistant.git
-cd gesture-voice-assistant
-python gesture_voice_assistant.py
 
