@@ -1,0 +1,60 @@
+
+# 🤖 Gesture & Voice Assistant
+
+Welcome to the **Gesture & Voice Assistant**, an innovative AI-powered virtual assistant that blends **computer vision**, **gesture recognition**, **eye detection**, **voice responses**, and a **graphical interface** to create a seamless and futuristic user experience.
+
+## 🔥 Key Features
+
+### 🎯 Dual Interface
+- Combines **Tkinter GUI** with **OpenCV-powered real-time webcam feed**.
+- A clean GUI window for easy navigation and a live feed window for gesture input.
+
+### 🧠 Hand Gesture Control
+- Utilizes **MediaPipe's hand tracking** to detect and interpret finger gestures.
+- Recognizes multiple finger patterns to perform different actions:
+  - ☝️ Index Finger Up → Opens YouTube
+  - ✌️ Index & Middle Finger Up → Opens Hotstar
+  - 🤟 Three Fingers Up → Opens Camera
+  - 🖖 Four Fingers Up → Opens Microsoft Edge
+  - ✋ All Fingers Up → Opens Notepad
+
+### 👁️ Eye Detection & Alert
+- Uses **Haar cascades** to detect user presence through eye tracking.
+- If eyes remain closed for more than 5 seconds, the assistant alerts the user via **text-to-speech (TTS)**.
+
+### 🔈 Voice Feedback
+- Integrates **pyttsx3** TTS engine to respond to user commands and confirmations.
+- Greets users and provides real-time voice responses for each action.
+
+### 🌐 Smart Application Launcher
+- Launches websites or applications based on gesture detection using system shell or default browser.
+- Automatically terminates the previous app before launching the next for smooth transitions.
+
+### 🛑 Safety Prompt
+- Includes a secure **exit confirmation prompt** to prevent accidental shutdowns.
+
+---
+
+## 📁 Project Structure
+```bash
+├── gesture_voice_assistant.py  # Main script
+├── README.md                   # Project description
+```
+
+## ✅ Requirements
+- Python 3.x
+- OpenCV (`cv2`)
+- MediaPipe
+- pyttsx3
+- tkinter (comes pre-installed with Python)
+- Haar Cascade XML files (included with OpenCV)
+
+## 🚀 How to Run
+```bash
+python gesture_voice_assistant.py
+```
+
+---
+
+## ✨ And many more exciting features await!
+👉 Clone the repository and explore how artificial intelligence and human-computer interaction come together in one place.
