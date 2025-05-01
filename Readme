@@ -52,9 +52,68 @@ Welcome to the **Gesture & Voice Assistant**, an innovative AI-powered virtual a
 ## 🚀 How to Run
 ```bash
 python gesture_voice_assistant.py
-```
+# 🤖 Gesture & Voice Assistant
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Enabled-success)](https://opencv.org/)
+[![Mediapipe](https://img.shields.io/badge/Mediapipe-Integrated-orange)](https://google.github.io/mediapipe/)
+[![TTS](https://img.shields.io/badge/pyttsx3-TTS%20Engine-lightgrey)](https://pypi.org/project/pyttsx3/)
+[![Tkinter GUI](https://img.shields.io/badge/Tkinter-GUI-green)](https://docs.python.org/3/library/tkinter.html)
+
+> 🚀 A powerful virtual assistant that responds to your **gestures**, **eye movement**, and **voice feedback**—bringing AI and human interaction together!
 
 ---
 
-## ✨ And many more exciting features await!
-👉 Clone the repository and explore how artificial intelligence and human-computer interaction come together in one place.
+## 📸 Demo Preview
+
+![Gesture & Voice Assistant Demo](demo.gif)  
+> _Replace `demo.gif` with your actual preview image or screen recording._
+
+---
+
+## 🔥 Key Features
+
+### 🎯 Dual Interface
+- Combines **Tkinter GUI** with a **live webcam feed** via OpenCV.
+
+### ✋ Hand Gesture Recognition (via MediaPipe)
+- ☝️ 1 Finger → YouTube  
+- ✌️ 2 Fingers → Hotstar  
+- 🤟 3 Fingers → Camera  
+- 🖖 4 Fingers → Microsoft Edge  
+- ✋ 5 Fingers → Notepad  
+
+### 👀 Eye Detection Alerts (via Haar Cascades)
+- Warns you if your eyes are closed for more than 5 seconds.
+
+### 🔈 Voice Interaction (via pyttsx3)
+- Friendly greetings and real-time voice feedback on actions.
+
+### ⚙️ Smart Application Launcher
+- Terminates the previous app before opening a new one.
+- Supports both websites and native apps.
+
+### 🛑 Exit Confirmation
+- Clean GUI exit with confirmation via `messagebox`.
+
+---
+
+## 🧰 Tech Stack
+
+- **Python 3.8+**
+- **OpenCV**
+- **MediaPipe**
+- **pyttsx3**
+- **Tkinter**
+- **WebBrowser Module**
+- **Haar Cascades for Face/Eye Detection**
+
+---
+
+## 🛠️ How to Run
+
+```bash
+git clone https://github.com/yourusername/gesture-voice-assistant.git
+cd gesture-voice-assistant
+python gesture_voice_assistant.py
+
